@@ -5,8 +5,15 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  has af ew issues, Ui si working but nubmers mismatched and hints were wrong
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
+    1. nubmer of attempts started 1 lower than it should have
+    2. hints were wrong, they said "Higher" when the guess was actually lower and vice versa
+    3. new game button didn't reset the game state, but the secret number and attempts did reset
+    4. score was negative and didnt mathc the final message score at the bottom
+    5. the range is 1-100 for all categories (easy, normal, hard) but it should be 1-50 for normal and 1-100 for hard and 1-20 for easy
+    6. the message in blue the also said all ranges were 1-100, which was wrong for easy and normal
 
 ---
 
